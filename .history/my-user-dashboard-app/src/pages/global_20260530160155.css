@@ -1,0 +1,22 @@
+/* .display{
+   width: 100vw;
+
+  max-width: 400px;
+  
+  background: linear-gradient(
+    135deg,
+    #7e6598,
+    #5095cd
+  );
+  padding: 40px;
+  border-radius: 50px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 15px 40px
+    rgba(0, 0, 0, 0.15);
+  line-height: 30px;
+  text-align: center;
+} */
+

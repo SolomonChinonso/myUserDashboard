@@ -1,0 +1,17 @@
+.display{
+   width: 100%;
+
+  max-width: 400px;
+  height: 100vh;
+  background: #040717;
+  padding: 40px;
+  border-radius: 50px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 15px 40px
+    rgba(0, 0, 0, 0.15);
+  line-height: 30px;
+  text-align: center;
+}

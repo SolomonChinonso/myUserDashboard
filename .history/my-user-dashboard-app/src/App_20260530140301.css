@@ -1,0 +1,8 @@
+.app-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: ;
+    border: 2px solid red;
+}
