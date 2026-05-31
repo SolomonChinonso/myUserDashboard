@@ -1,0 +1,44 @@
+import { useAuth } from "../hooks/useAuth";
+import "./global.css"
+
+const Dashboard = () => {
+  const { user } = useAuth();
+
+  return (
+    <div className="page">
+      <div className="card">
+        <h1>Dashboard</h1>
+
+      <div className="dashboard-card">
+       <div className="intro">
+         <div className="welcome-box">
+          <h2>Welcome, {user?.username}</h2>
+         <p>{user?.role}</p>
+         </div>
+       </div>
+
+        {user?.role === "Admin" && (
+        <div className="panel">
+          <h2 >Admin Controls</h2>
+         
+        </div>
+      )}
+
+      {user?.role === "Editor" && (
+        <div>
+          <h2 className="panel">Editor Panel</h2>
+        </div>
+      )}
+
+      {user?.role === "Viewer" && (
+        <div className="panel">
+          <h2>Read Only Reports</h2>
+        </div>
+      )}
+      </div>
+      </div>
+    </div>
+  );
+};
+
+export default Dashboard;

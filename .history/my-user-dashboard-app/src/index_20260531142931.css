@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+body{
+   height: 100vh;
+   
+    letter-spacing: 2px;
+    background:  linear-gradient(
+    135deg,
+    #7e6598,
+    #5095cd);
+    background-repeat:no-repeat;
+    color: #5095cd;;
+    padding: 20px;
+}
