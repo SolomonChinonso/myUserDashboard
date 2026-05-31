@@ -26,7 +26,7 @@ const Navbar = () => {
       )}
      </div>
 
-     
+     <div className="profile">
        <span>
          <FaUserCircle size={35} />
          {user?.role}: {user?.username}
@@ -35,7 +35,7 @@ const Navbar = () => {
       <button onClick={handleLogout}>
         Logout
       </button>
-     
+     </div>
     </nav>
   );
 };

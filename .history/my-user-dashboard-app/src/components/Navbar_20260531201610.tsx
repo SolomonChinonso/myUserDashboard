@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className="logo"><h2>LO</h2><h2>GO</h2></div>
+     
      <div className="links">
       
        <Link to="/dashboard">Dashboard|</Link>
@@ -26,7 +26,7 @@ const Navbar = () => {
       )}
      </div>
 
-     
+     <div className="profile">
        <span>
          <FaUserCircle size={35} />
          {user?.role}: {user?.username}
@@ -35,7 +35,7 @@ const Navbar = () => {
       <button onClick={handleLogout}>
         Logout
       </button>
-     
+     </div>
     </nav>
   );
 };
